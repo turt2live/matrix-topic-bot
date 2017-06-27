@@ -52,7 +52,10 @@ function checkTopic(roomId) {
 
         let originalCachedValue = topicCache[roomId];
         topicCache[roomId] = topicTemplate;
-        client.setRoomTopic(roomId, topicTemplate).catch(err => topicCache[roomId] = originalCachedValue).then(() => console.log("Topic updated in room " + roomId));
+        client.setRoomTopic(roomId, topicTemplate).catch(err => topicCache[roomId] = originalCachedValue).then(() => console.log("Topic updated in room " + roomId)).catch(err => {
+            console.log("Failed to update topic in room " + roomId);
+            console.error(err);
+        });
     }
 }
 
