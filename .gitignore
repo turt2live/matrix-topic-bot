@@ -1,3 +1,8 @@
+config/*
+!config/default.yaml
+
+/.idea
+
 # Logs
 logs
 *.log

@@ -1,0 +1,9 @@
+homeserverUrl: "https://t2bot.io"
+accessToken: "YOUR_TOKEN_HERE"
+userId: "@topic:t2bot.io"
+
+rooms:
+  "!JJHiJkTxxJiGAhXCUm:t2l.io": # #topicbot:t2l.io
+    topic: "Now at over $RESULT members"
+    fn: "./topics/member_count.js" # ./ is required
+    args: [1] # 1 to indicate "total - 1"

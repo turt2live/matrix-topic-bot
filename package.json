@@ -1,0 +1,19 @@
+{
+  "name": "matrix-topic-bot",
+  "version": "1.0.0",
+  "description": "A matrix bot that updates the topic of a room",
+  "main": "index.js",
+  "author": "Travis Ralston",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turt2live/matrix-topic-bot.git"
+  },
+  "dependencies": {
+    "config": "^1.26.1",
+    "escape-string-regexp": "^1.0.5",
+    "js-yaml": "^3.8.4",
+    "lodash": "^4.17.4",
+    "matrix-js-sdk": "^0.7.13"
+  }
+}
