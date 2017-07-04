@@ -13,11 +13,11 @@ Questions? Ask away in [#topicbot:t2bot.io](https://matrix.to/#/#topicbot:t2bot.
 
 1. Invite `@topic:t2bot.io` to a room
 2. Give the bot permission to edit your topic (usually requires moderator privileges)
-3. Set your topic formatter and variables: `!topic format member_count`
-4. Set your desired room topic: `!topic set My first room with {RESULT} people!`
+3. Set your topic template and variables: `!topic template member_count`
+4. Set your desired room topic: `!topic set My first room with $RESULT people!`
 5. The bot will keep your topic up to date!
 
-For information on the available formatters, type `!topic formats` or `!topic help` for more information.
+For information on the available templates, type `!topic templates` or `!topic help` for more information.
 
 # Building your own
 

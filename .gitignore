@@ -3,6 +3,8 @@ config/*
 
 /.idea
 
+/db
+
 # Logs
 logs
 *.log
